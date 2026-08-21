@@ -1,2 +1,10 @@
 # vercel-env-deploy-skill
-Skill + scripts to set Vercel env vars via REST API and deploy projects for x402/Grokzilla
+
+Write Vercel env vars via REST API and bootstrap the x402 gateway.
+
+```bash
+export VERCEL_TOKEN=your_token
+bash scripts/gateway_bootstrap.sh
+```
+
+See SKILL.md.
