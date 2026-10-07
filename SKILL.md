@@ -27,7 +27,8 @@ curl -sS -X POST \
   -H "Content-Type: application/json" \
   -d '[
     {"key":"FACILITATOR_URL","value":"https://x402.org/facilitator","type":"plain","target":["production","preview"]},
-    {"key":"X402_PAY_TO","value":"0xDa1Eab46918882f8656a41cF9fCa80e2415369d1","type":"plain","target":["production","preview"]},
+    {"key":"TREASURY_ADDRESS","value":"0xc22f9CAEBAc37fE72D5142f35f21f6696Ea9Ef69","type":"plain","target":["production","preview"]},
+    {"key":"X402_PAY_TO","value":"0xc22f9CAEBAc37fE72D5142f35f21f6696Ea9Ef69","type":"plain","target":["production","preview"]},
     {"key":"X402_NETWORK","value":"eip155:84532","type":"plain","target":["production","preview"]},
     {"key":"PUBLIC_BASE_URL","value":"https://x402-micro-pay.com","type":"plain","target":["production","preview"]}
   ]'
